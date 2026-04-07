@@ -1,0 +1,44 @@
+
+---Downloaded files---
+The import files for: Dotus were successfully downloaded!
+Initial max execution time = 12000
+Files info:
+Site URL = http://localhost/medi
+Data file = C:\xampp\htdocs\medi/wp-content/uploads/2026/03/demo-content-import-file_2026-03-17__11-07-25.xml
+Widget file = C:\xampp\htdocs\medi/wp-content/uploads/2026/03/demo-widgets-import-file_2026-03-17__11-07-25.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Widget Area : 
+
+Dotus: Text Widget - No Title - Imported
+Search - Search - Imported
+Categories - Categories - Imported
+Dotus: Recent Posts - Recent Posts - Imported
+Tag Cloud - Tags - Imported
+
+Footer Widget 1 : 
+
+Dotus: Text Widget - No Title - Imported
+
+Footer Widget 2 : 
+
+Dotus: Navigation - Useful Link - Imported
+
+Footer Widget 3 : 
+
+Dotus: Text Widget - Our Address - Imported
+
+Footer Widget 4 : 
+
+Mailchimp Sign-Up Form - Newsletter - Imported
+
+
+
+------
+Codestar Framework files loaded.
+
+---ocdi/after_import---
+

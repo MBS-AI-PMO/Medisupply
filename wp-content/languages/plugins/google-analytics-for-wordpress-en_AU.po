@@ -1,0 +1,1798 @@
+# Translation of Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-20 00:38:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release)\n"
+
+#. Translators: The error message received.
+#: lite/includes/admin/wp-site-health.php:428
+msgid "Error message: %s"
+msgstr "Error message: %s"
+
+#: lite/includes/admin/wp-site-health.php:424
+msgid "Your server is blocking external requests to monsterinsights.com, please check your firewall settings or contact your host for more details."
+msgstr "Your server is blocking external requests to monsterinsights.com, please check your firewall settings or contact your host for more details."
+
+#: lite/includes/admin/wp-site-health.php:423
+msgid "The MonsterInsights server is not reachable."
+msgstr "The MonsterInsights server is not reachable."
+
+#: lite/includes/admin/wp-site-health.php:408
+msgid "The MonsterInsights API is reachable and no connection issues have been detected."
+msgstr "The MonsterInsights API is reachable and no connection issues have been detected."
+
+#: lite/includes/admin/wp-site-health.php:402
+msgid "Can connect to MonsterInsights.com correctly"
+msgstr "Can connect to MonsterInsights.com correctly"
+
+#: lite/includes/admin/wp-site-health.php:372
+msgid "AMP pages are not being tracked"
+msgstr "AMP pages are not being tracked"
+
+#: lite/includes/admin/wp-site-health.php:357
+#: lite/includes/admin/wp-site-health.php:383
+msgid "View Addons"
+msgstr "View Addons"
+
+#: lite/includes/admin/wp-site-health.php:345
+msgid "eCommerce data is not being tracked"
+msgstr "eCommerce data is not being tracked"
+
+#: lite/includes/admin/wp-site-health.php:330
+msgid "Update Settings"
+msgstr "Update Settings"
+
+#: lite/includes/admin/wp-site-health.php:326
+msgid "MonsterInsights automatic updates are disabled. We recommend enabling automatic updates so you can get access to the latest features, bugfixes, and security updates as they are released."
+msgstr "MonsterInsights automatic updates are disabled. We recommend enabling automatic updates so you can get access to the latest features, bug fixes, and security updates as they are released."
+
+#: lite/includes/admin/wp-site-health.php:325
+msgid "Automatic updates are disabled"
+msgstr "Automatic updates are disabled"
+
+#: lite/includes/admin/wp-site-health.php:321
+msgid "MonsterInsights minor updates are enabled and you are getting the latest bugfixes and security updates, but not major features."
+msgstr "MonsterInsights minor updates are enabled and you are getting the latest bug fixes and security updates, but not major features."
+
+#: lite/includes/admin/wp-site-health.php:320
+msgid "Your website is receiving minor updates"
+msgstr "Your website is receiving minor updates"
+
+#: lite/includes/admin/wp-site-health.php:313
+msgid "MonsterInsights automatic updates are enabled and you are getting the latest features, bugfixes, and security updates as they are released."
+msgstr "MonsterInsights automatic updates are enabled and you are getting the latest features, bug fixes, and security updates as they are released."
+
+#: lite/includes/admin/wp-site-health.php:307
+msgid "Your website is receiving automatic updates"
+msgstr "Your website is receiving automatic updates"
+
+#: lite/includes/admin/wp-site-health.php:292
+msgid "Go to License Settings"
+msgstr "Go to Licence Settings"
+
+#: lite/includes/admin/wp-site-health.php:288
+msgid "A valid license has been added to MonsterInsights but you are still using the Lite version."
+msgstr "A valid licence has been added to MonsterInsights but you are still using the Lite version."
+
+#: lite/includes/admin/wp-site-health.php:287
+msgid "MonsterInsights Upgrade not applied"
+msgstr "MonsterInsights Upgrade not applied"
+
+#: lite/includes/admin/wp-site-health.php:261
+msgid "Your traffic is not being tracked by MonsterInsights at the moment and you are losing data. Authenticate and get access to the reporting area and advanced tracking features."
+msgstr "Your traffic is not being tracked by MonsterInsights at the moment and you are losing data. Authenticate and get access to the reporting area and advanced tracking features."
+
+#: lite/includes/admin/wp-site-health.php:260
+msgid "Please configure your Google Analytics settings"
+msgstr "Please configure your Google Analytics settings"
+
+#: lite/includes/admin/wp-site-health.php:254
+#: lite/includes/admin/wp-site-health.php:265
+msgid "Authenticate now"
+msgstr "Authenticate now"
+
+#: lite/includes/admin/wp-site-health.php:250
+msgid "We highly recommend authenticating with MonsterInsights so that you can access our new reporting area and take advantage of new MonsterInsights features."
+msgstr "We highly recommend authenticating with MonsterInsights so that you can access our new reporting area and take advantage of new MonsterInsights features."
+
+#: lite/includes/admin/wp-site-health.php:238
+msgid "View Reports"
+msgstr "View Reports"
+
+#: lite/includes/admin/wp-site-health.php:234
+msgid "MonsterInsights integrates your WordPress website with Google Analytics."
+msgstr "MonsterInsights integrates your WordPress website with Google Analytics."
+
+#: lite/includes/admin/wp-site-health.php:228
+msgid "Your website is authenticated with MonsterInsights"
+msgstr "Your website is authenticated with MonsterInsights"
+
+#: lite/includes/admin/wp-site-health.php:80
+msgid "MonsterInsights Connection"
+msgstr "MonsterInsights Connection"
+
+#: lite/includes/admin/wp-site-health.php:74
+msgid "MonsterInsights AMP"
+msgstr "MonsterInsights AMP"
+
+#: lite/includes/admin/wp-site-health.php:67
+msgid "MonsterInsights eCommerce"
+msgstr "MonsterInsights eCommerce"
+
+#: lite/includes/admin/wp-site-health.php:61
+msgid "MonsterInsights Automatic Updates"
+msgstr "MonsterInsights Automatic Updates"
+
+#: lite/includes/admin/wp-site-health.php:56
+msgid "MonsterInsights Authentication"
+msgstr "MonsterInsights Authentication"
+
+#. translators: Post type archive title. %s: Post type name
+#: includes/helpers.php:1528
+msgid "Archives: %s"
+msgstr "Archives: %s"
+
+#: includes/helpers.php:1524
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "Chats"
+
+#: includes/helpers.php:1522
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "Audio"
+
+#: includes/helpers.php:1520
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "Statuses"
+
+#: includes/helpers.php:1518
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "Links"
+
+#: includes/helpers.php:1516
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "Quotes"
+
+#: includes/helpers.php:1514
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "Videos"
+
+#: includes/helpers.php:1512
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "Images"
+
+#: includes/helpers.php:1510
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "Galleries"
+
+#: includes/helpers.php:1508
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "Asides"
+
+#. translators: Daily archive title. %s: Date
+#: includes/helpers.php:1505
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#. translators: Daily archive title. %s: Date
+#: includes/helpers.php:1505
+msgid "Day: %s"
+msgstr "Day: %s"
+
+#. translators: Monthly archive title. %s: Month name and year
+#: includes/helpers.php:1502
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: Monthly archive title. %s: Month name and year
+#: includes/helpers.php:1502
+msgid "Month: %s"
+msgstr "Month: %s"
+
+#. translators: Yearly archive title. %s: Year
+#: includes/helpers.php:1499
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: Yearly archive title. %s: Year
+#: includes/helpers.php:1499
+msgid "Year: %s"
+msgstr "Year: %s"
+
+#. translators: Author archive title. %s: Author name
+#: includes/helpers.php:1496
+msgid "Author: %s"
+msgstr "Author: %s"
+
+#. translators: Tag archive title. %s: Tag name
+#: includes/helpers.php:1493
+msgid "Tag: %s"
+msgstr "Tag: %s"
+
+#. translators: Category archive title. %s: Category name
+#: includes/helpers.php:1490
+msgid "Category: %s"
+msgstr "Category: %s"
+
+#: includes/helpers.php:1486
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/admin/admin.php:174 includes/admin/admin.php:325
+msgid "About Us:"
+msgstr "About Us:"
+
+#: includes/connect.php:175 includes/connect.php:181 includes/connect.php:234
+msgid "Plugin installed & activated."
+msgstr "Plugin installed & activated."
+
+#: includes/connect.php:204
+msgid "You are not licensed."
+msgstr "You are not licensed."
+
+#: lite/includes/admin/onboarding-wizard.php:198
+msgid "Return to Dashboard"
+msgstr "Return to Dashboard"
+
+#: includes/admin/routes.php:1270
+msgid "Missing plugin name."
+msgstr "Missing plugin name."
+
+#: includes/admin/routes.php:1141 includes/admin/routes.php:1555
+#: includes/admin/routes.php:1812
+msgid "Add your license"
+msgstr "Add your licence"
+
+#. Translators: Adds a link to the settings panel.
+#: includes/admin/admin.php:819
+msgid "Warning: MonsterInsights found cross-domain settings in the custom code field and converted them to the new settings structure.  %1$sPlease click here to review and remove the code no longer needed.%2$s"
+msgstr "Warning: MonsterInsights found cross-domain settings in the custom code field and converted them to the new settings structure.  %1$sPlease click here to review and remove the code no longer needed.%2$s"
+
+#: includes/admin/reports/abstract-report.php:575
+msgid "Please ask your webmaster to enable this addon."
+msgstr "Please ask your webmaster to enable this addon."
+
+#: includes/admin/admin.php:174 includes/admin/admin.php:325
+msgid "About Us"
+msgstr "About Us"
+
+#: lite/includes/admin/metaboxes.php:88 lite/includes/admin/metaboxes.php:128
+#: assets/gutenberg/js/editor.js:2656
+msgid "Exits"
+msgstr "Exits"
+
+#: includes/admin/pages/settings.php:131
+msgid "View supported browsers"
+msgstr "View supported browsers"
+
+#: includes/admin/pages/settings.php:128
+msgid "You are using a browser which is no longer supported by MonsterInsights. Please update or use another browser in order to access the plugin settings."
+msgstr "You are using a browser which is no longer supported by MonsterInsights. Please update or use another browser in order to access the plugin settings."
+
+#: includes/admin/pages/settings.php:126
+msgid "Your browser version is not supported"
+msgstr "Your browser version is not supported"
+
+#: includes/admin/pages/settings.php:121
+msgid "Resolve This Issue"
+msgstr "Resolve This Issue"
+
+#: includes/admin/pages/settings.php:117
+msgid "Copy the error message above and paste it in a message to the MonsterInsights support team."
+msgstr "Copy the error message above and paste it in a message to the MonsterInsights support team."
+
+#: includes/admin/pages/settings.php:97
+msgid "There seems to be an issue running JavaScript on your website, which MonsterInsights is crafted in to give you the best experience possible."
+msgstr "There seems to be an issue running JavaScript on your website, which MonsterInsights is crafted in to give you the best experience possible."
+
+#: includes/admin/pages/settings.php:95
+msgid "Ooops! It Appears JavaScript Didn’t Load"
+msgstr "Ooops! It Appears JavaScript Didn’t Load"
+
+#: includes/admin/ajax.php:56
+msgid "You are not allowed to install plugins"
+msgstr "You are not allowed to install plugins"
+
+#: lite/includes/admin/onboarding-wizard.php:183
+msgid "MonsterInsights &rsaquo; Onboarding Wizard"
+msgstr "MonsterInsights &rsaquo; Onboarding Wizard"
+
+#: includes/admin/admin.php:183
+#: includes/admin/notifications/notification-product-feed-upgrade.php:65
+#: includes/admin/notifications/notification-upgrade-to-pro-high-traffic.php:41
+#: includes/admin/notifications/notification-upgrade-to-pro.php:33
+msgid "Upgrade to Pro"
+msgstr "Upgrade to Pro"
+
+#: includes/admin/admin.php:554 includes/admin/admin.php:1068
+#: includes/admin/common.php:659 includes/admin/common.php:685
+#: includes/admin/common.php:717
+#: includes/admin/notifications/notification-audience.php:55
+#: includes/admin/notifications/notification-bounce-rate.php:52
+#: includes/admin/notifications/notification-headline-analyzer.php:39
+#: includes/admin/notifications/notification-mobile-device-low-traffic.php:41
+#: includes/admin/notifications/notification-product-feed-upgrade.php:70
+#: includes/admin/notifications/notification-product-feed-upgrade.php:104
+#: includes/admin/notifications/notification-returning-visitors.php:43
+#: includes/admin/notifications/notification-traffic-dropping.php:43
+msgid "Learn More"
+msgstr "Learn More"
+
+#: includes/admin/notifications/notification-upgrade-for-custom-dimensions.php:25
+#: includes/admin/notifications/notification-upgrade-for-events-reporting.php:25
+#: includes/admin/notifications/notification-upgrade-for-post-templates.php:25
+#: lite/includes/admin/helpers.php:85
+msgid "Upgrade to MonsterInsights Pro"
+msgstr "Upgrade to MonsterInsights Pro"
+
+#: lite/includes/admin/reports/report-realtime.php:22
+msgid "Real Time"
+msgstr "Real Time"
+
+#: includes/helpers.php:610
+msgid "Macedonia (FYROM)"
+msgstr "Macedonia (FYROM)"
+
+#: includes/api-request.php:509
+msgid "Reason: The API was unreachable because no external hosts are allowed on this site."
+msgstr "Reason: The API was unreachable because no external hosts are allowed on this site."
+
+#: includes/api-request.php:504 includes/api-request.php:526
+msgid "Reason: The API was unreachable because the call to Google failed."
+msgstr "Reason: The API was unreachable because the call to Google failed."
+
+#: includes/api-request.php:489
+msgid "Reason: The API was unreachable because the API url is on the WP HTTP blocklist."
+msgstr "Reason: The API was unreachable because the API url is on the WP HTTP blocklist."
+
+#. Translators: Placeholder gets replaced with the error message.
+#: includes/api-request.php:230
+msgid "The firewall of your server is blocking outbound calls. Please contact your hosting provider to fix this issue. %s"
+msgstr "The firewall of your server is blocking outbound calls. Please contact your hosting provider to fix this issue. %s"
+
+#: includes/admin/review.php:157
+msgid "I already did"
+msgstr "I already did"
+
+#: includes/admin/review.php:149
+msgid "Nope, maybe later"
+msgstr "Nope, maybe later"
+
+#. Plugin URI of the plugin
+#: googleanalytics.php
+msgid "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
+msgstr "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
+
+#: includes/admin/review.php:141
+msgid "Ok, you deserve it"
+msgstr "Ok, you deserve it"
+
+#: googleanalytics.php:607
+msgid "Please uninstall and remove MonsterInsights Pro before activating Google Analytics for WordPress by MonsterInsights. The Lite version has not been activated. %1$sClick here to return to the Dashboard%2$s."
+msgstr "Please uninstall and remove MonsterInsights Pro before activating Google Analytics for WordPress by MonsterInsights. The Lite version has not been activated. %1$sClick here to return to the Dashboard%2$s."
+
+#: includes/gutenberg/site-insights/templates/graph/class-graph-sessions.php:41
+#: includes/gutenberg/site-insights/templates/graph/class-graph-sessions.php:130
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-age.php:60
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-gender.php:60
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-sessions.php:27
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-top10countries.php:56
+#: lite/includes/emails/templates/body-summaries-test-plain.php:28
+#: lite/includes/emails/templates/body-summaries-test.php:30
+#: lite/assets/vue3/js/chunks/DashboardCreate-DS2q8PCa.js:324
+#: lite/assets/vue3/js/chunks/DashboardCreate-hcZoS4x7.js:322
+#: lite/assets/vue3/js/chunks/useAuthGate-Bvb6NIwm.js:19469
+#: lite/assets/vue3/js/chunks/useAuthGate-Bvb6NIwm.js:20071
+#: lite/assets/vue3/js/chunks/useAuthGate-Bvb6NIwm.js:20584
+#: lite/assets/vue3/js/chunks/useAuthGate-CBzUzN1E.js:41866
+#: lite/assets/vue3/js/chunks/useAuthGate-CBzUzN1E.js:42450
+#: lite/assets/vue3/js/chunks/useAuthGate-CBzUzN1E.js:42952
+msgid "Sessions"
+msgstr "Sessions"
+
+#: lite/includes/admin/reports/report-queries.php:22
+msgid "Search Console"
+msgstr "Search Console"
+
+#: lite/includes/admin/reports/report-publisher.php:22
+msgid "Publishers"
+msgstr "Publishers"
+
+#: lite/includes/admin/reports/report-dimensions.php:22
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: includes/frontend/tracking/class-tracking-gtag.php:217
+msgid "Note: The site owner has disabled Google Analytics tracking for your user role."
+msgstr "Note: The site owner has disabled Google Analytics tracking for your user role."
+
+#: includes/frontend/tracking/class-tracking-gtag.php:211
+msgid "Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel."
+msgstr "Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel."
+
+#: includes/api-request.php:232
+msgid "The firewall of your server is blocking outbound calls. Please contact your hosting provider to fix this issue."
+msgstr "The firewall of your server is blocking outbound calls. Please contact your hosting provider to fix this issue."
+
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-top10countries.php:55
+msgid "Top 10 Countries"
+msgstr "Top 10 Countries"
+
+#: includes/gutenberg/site-insights/templates/graph/class-graph-device.php:41
+#: includes/gutenberg/site-insights/templates/graph/class-graph-device.php:81
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-device.php:33
+msgid "Device Breakdown"
+msgstr "Device Breakdown"
+
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-pageviews.php:27
+#: lite/includes/emails/templates/body-summaries-test-plain.php:31
+#: lite/includes/emails/templates/body-summaries-test.php:33
+msgid "Avg. Session Duration"
+msgstr "Avg. Session Duration"
+
+#: includes/gutenberg/site-insights/templates/graph/class-graph-pageviews.php:59
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-sessions.php:36
+msgid "Pageviews"
+msgstr "Pageviews"
+
+#: lite/includes/admin/metaboxes.php:80 lite/includes/admin/metaboxes.php:120
+#: lite/includes/emails/templates/body-summaries-plain.php:62
+#: lite/includes/emails/templates/body-summaries-test-plain.php:30
+#: lite/includes/emails/templates/body-summaries-test-plain.php:98
+#: lite/includes/emails/templates/body-summaries-test.php:32
+#: lite/includes/emails/templates/body-summaries-test.php:149
+#: lite/includes/emails/templates/body-summaries.php:120
+#: assets/gutenberg/js/editor.js:2655
+#: lite/assets/vue3/js/chunks/useAuthGate-Bvb6NIwm.js:20585
+#: lite/assets/vue3/js/chunks/useAuthGate-CBzUzN1E.js:42953
+msgid "Page Views"
+msgstr "Page Views"
+
+#: includes/admin/reports/abstract-report.php:509
+#: includes/admin/reports/abstract-report.php:532
+msgid "If you have any questions, don't hesitate to reach out. We're here to help."
+msgstr "If you have any questions, don't hesitate to reach out. We're here to help."
+
+#: includes/admin/reports/abstract-report.php:485
+msgid "(And Crush Your Competition?)"
+msgstr "(And Crush Your Competition?)"
+
+#: includes/admin/reports/abstract-report.php:483
+msgid "Ready to Get Analytics Super-Powers?"
+msgstr "Ready to Get Analytics Super-Powers?"
+
+#: includes/admin/reports/abstract-report.php:137
+msgid "No data found"
+msgstr "No data found"
+
+#: includes/admin/notification-event.php:257
+#: lite/includes/emails/summaries.php:690
+msgid "You don't have permission to view MonsterInsights reports."
+msgstr "You don't have permission to view MonsterInsights reports."
+
+#: includes/admin/api-auth.php:624
+msgid "Successfully force deauthenticated."
+msgstr "Successfully force deauthenticated."
+
+#: includes/admin/api-auth.php:621
+msgid "Successfully deauthenticated."
+msgstr "Successfully deauthenticated."
+
+#: includes/admin/api-auth.php:508
+msgid "Successfully verified."
+msgstr "Successfully verified."
+
+#. Translators: Placeholders add a link to the MonsterInsights website.
+#: includes/admin/admin.php:751 includes/admin/admin.php:803
+msgid "%1$sGet MonsterInsights Pro%2$s"
+msgstr "%1$sGet MonsterInsights Pro%2$s"
+
+#: includes/admin/admin.php:593
+msgid "Your network license key for MonsterInsights is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key."
+msgstr "Your network licence key for MonsterInsights is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key."
+
+#: includes/admin/admin.php:591
+msgid "Your network license key for MonsterInsights has been disabled. Please use a different key."
+msgstr "Your network licence key for MonsterInsights has been disabled. Please use a different key."
+
+#. Translators: Adds a link to renew license.
+#: includes/admin/admin.php:589
+msgid "Your network license key for MonsterInsights has expired. %1$sPlease click here to renew your license key.%2$s"
+msgstr "Your network licence key for MonsterInsights has expired. %1$sPlease click here to renew your licence key.%2$s"
+
+#: includes/admin/admin.php:584 includes/admin/api-auth.php:311
+#: lite/assets/vue3/js/chunks/useSampleData-vhpTLOJT.js:745
+#: lite/assets/vue3/js/chunks/useSampleData-WWO8wHOx.js:741
+msgid "Your license key for MonsterInsights is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key."
+msgstr "Your licence key for MonsterInsights is invalid. The key no longer exists or the user associated with the key has been deleted. Please use a different key."
+
+#: includes/admin/admin.php:582
+#: lite/assets/vue3/js/chunks/useSampleData-vhpTLOJT.js:734
+#: lite/assets/vue3/js/chunks/useSampleData-WWO8wHOx.js:730
+msgid "Your license key for MonsterInsights has been disabled. Please use a different key."
+msgstr "Your licence key for MonsterInsights has been disabled. Please use a different key."
+
+#. Translators: Adds a link to the license renewal.
+#: includes/admin/admin.php:580
+msgid "Your license key for MonsterInsights has expired. %1$sPlease click here to renew your license key.%2$s"
+msgstr "Your licence key for MonsterInsights has expired. %1$sPlease click here to renew your licence key.%2$s"
+
+#. Translators: Adds a link to retrieve the license.
+#: includes/admin/admin.php:568
+msgid "Warning: No valid license key has been entered for MonsterInsights. You are currently not getting updates, and are not able to view reports. %1$sPlease click here to enter your license key and begin receiving updates and reports.%2$s"
+msgstr "Warning: No valid licence key has been entered for MonsterInsights. You are currently not getting updates, and are not able to view reports. %1$sPlease click here to enter your licence key and begin receiving updates and reports.%2$s"
+
+#: includes/admin/admin.php:397
+msgid "MonsterInsights Knowledge Base"
+msgstr "MonsterInsights Knowledge Base"
+
+#: includes/admin/admin.php:305 includes/admin/admin.php:307
+msgid "Network Settings:"
+msgstr "Network Settings:"
+
+#: includes/admin/admin.php:62 includes/admin/admin.php:94
+#: includes/admin/admin.php:309
+msgid "General Reports:"
+msgstr "General Reports:"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:423
+msgid "Skip %s Deactivate"
+msgstr "Skip %s Deactivate"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:422
+msgid "Submit %s Deactivate"
+msgstr "Submit %s Deactivate"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:407
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr "If you have a moment, please share why you are deactivating %s:"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:406
+msgid "Quick Feedback"
+msgstr "Quick Feedback"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:398
+msgid "Please share the reason"
+msgstr "Please share the reason"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:397
+msgid "Other"
+msgstr "Other"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:394
+msgid "It's a temporary deactivation"
+msgstr "It's a temporary deactivation"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:391
+msgid "I couldn't get the plugin to work"
+msgstr "I couldn't get the plugin to work"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:388
+msgid "Please share which plugin"
+msgstr "Please share which plugin"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:387
+msgid "I'm switching to a different plugin"
+msgstr "I'm switching to a different plugin"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:384
+msgid "I no longer need the plugin"
+msgstr "I no longer need the plugin"
+
+#: includes/admin/class-monsterinsights-am-deactivation-survey.php:233
+msgid "Please select an option"
+msgstr "Please select an option"
+
+#: lite/includes/admin/tools.php:11
+msgid "By upgrading to MonsterInsights Pro, you can unlock the MonsterInsights URL builder that helps you better track your advertising and email marketing campaigns."
+msgstr "By upgrading to MonsterInsights Pro, you can unlock the MonsterInsights URL builder that helps you better track your advertising and email marketing campaigns."
+
+#: lite/includes/admin/tools.php:13
+msgid "Click here to Upgrade"
+msgstr "Click here to Upgrade"
+
+#: lite/includes/admin/tools.php:10
+msgid "Want even more fine tuned control over your website analytics?"
+msgstr "Want even more fine tuned control over your website analytics?"
+
+#: includes/helpers.php:539
+msgid "Czechia"
+msgstr "Czechia"
+
+#: includes/admin/routes.php:1047
+msgid "Please upload a valid .json file"
+msgstr "Please upload a valid .json file"
+
+#: includes/admin/admin.php:149
+msgid "Tools"
+msgstr "Tools"
+
+#: includes/admin/admin.php:149
+msgid "Tools:"
+msgstr "Tools:"
+
+#. Description of the plugin
+#: googleanalytics.php
+msgid "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back."
+msgstr "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back."
+
+#. Plugin Name of the plugin
+#: googleanalytics.php
+msgid "Google Analytics for WordPress by MonsterInsights"
+msgstr "Google Analytics for WordPress by MonsterInsights"
+
+#: includes/helpers.php:729 includes/helpers.php:2230
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: includes/helpers.php:728 includes/helpers.php:2229
+msgid "Zambia"
+msgstr "Zambia"
+
+#: includes/helpers.php:727
+msgid "Yemen"
+msgstr "Yemen"
+
+#: includes/helpers.php:726
+msgid "Western Samoa"
+msgstr "Western Samoa"
+
+#: includes/helpers.php:725
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: includes/helpers.php:724
+msgid "Wallis and Futuna Islands"
+msgstr "Wallis and Futuna Islands"
+
+#: includes/helpers.php:723
+msgid "Virgin Islands (USA)"
+msgstr "Virgin Islands (USA)"
+
+#: includes/helpers.php:722
+msgid "Virgin Islands (British)"
+msgstr "Virgin Islands (British)"
+
+#: includes/helpers.php:721
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: includes/helpers.php:720
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: includes/helpers.php:719 includes/helpers.php:2228
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/helpers.php:718
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: includes/helpers.php:717
+msgid "US Minor Outlying Islands"
+msgstr "US Minor Outlying Islands"
+
+#: includes/helpers.php:716
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: includes/helpers.php:715
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: includes/helpers.php:714
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: includes/helpers.php:713 includes/helpers.php:2227
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/helpers.php:712 includes/helpers.php:2224
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: includes/helpers.php:711
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+#: includes/helpers.php:710
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: includes/helpers.php:709
+msgid "Turkey"
+msgstr "Turkey"
+
+#: includes/helpers.php:708
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: includes/helpers.php:707 includes/helpers.php:2220
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+#: includes/helpers.php:706 includes/helpers.php:2223
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/helpers.php:705
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/helpers.php:704
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/helpers.php:703
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: includes/helpers.php:702
+msgid "Thailand"
+msgstr "Thailand"
+
+#: includes/helpers.php:701 includes/helpers.php:2222
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: includes/helpers.php:700
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: includes/helpers.php:699
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: includes/helpers.php:698
+msgid "Syrian Arab Republic"
+msgstr "Syrian Arab Republic"
+
+#: includes/helpers.php:697
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: includes/helpers.php:696
+msgid "Sweden"
+msgstr "Sweden"
+
+#: includes/helpers.php:695 includes/helpers.php:2212
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: includes/helpers.php:694
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Svalbard and Jan Mayen Islands"
+
+#: includes/helpers.php:693
+msgid "Suriname"
+msgstr "Suriname"
+
+#: includes/helpers.php:692 includes/helpers.php:2219
+msgid "Sudan"
+msgstr "Sudan"
+
+#: includes/helpers.php:691
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: includes/helpers.php:690
+msgid "Spain"
+msgstr "Spain"
+
+#: includes/helpers.php:689 includes/helpers.php:2218
+msgid "South Sudan"
+msgstr "South Sudan"
+
+#: includes/helpers.php:688
+msgid "South Korea"
+msgstr "South Korea"
+
+#: includes/helpers.php:687
+msgid "South Georgia"
+msgstr "South Georgia"
+
+#: includes/helpers.php:686 includes/helpers.php:2217
+msgid "South Africa"
+msgstr "South Africa"
+
+#: includes/helpers.php:685
+msgid "Somalia"
+msgstr "Somalia"
+
+#: includes/helpers.php:684 includes/helpers.php:2216
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: includes/helpers.php:683
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: includes/helpers.php:682
+msgid "Slovak Republic"
+msgstr "Slovak Republic"
+
+#: includes/helpers.php:681 includes/helpers.php:2208
+msgid "Singapore"
+msgstr "Singapore"
+
+#: includes/helpers.php:680 includes/helpers.php:2215
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: includes/helpers.php:679 includes/helpers.php:2214
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: includes/helpers.php:678
+msgid "Serbia"
+msgstr "Serbia"
+
+#: includes/helpers.php:677
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/helpers.php:676
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: includes/helpers.php:675
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+
+#: includes/helpers.php:674
+msgid "San Marino"
+msgstr "San Marino"
+
+#: includes/helpers.php:673
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+#: includes/helpers.php:672
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: includes/helpers.php:671
+msgid "Saint Martin (Dutch)"
+msgstr "Saint Martin (Dutch)"
+
+#: includes/helpers.php:670
+msgid "Saint Martin (French)"
+msgstr "Saint Martin (French)"
+
+#: includes/helpers.php:669
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: includes/helpers.php:668
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: includes/helpers.php:667
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: includes/helpers.php:666
+msgid "Saint Barth&eacute;lemy"
+msgstr "Saint Barth&eacute;lemy"
+
+#: includes/helpers.php:665 includes/helpers.php:2207
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: includes/helpers.php:664
+msgid "Russian Federation"
+msgstr "Russian Federation"
+
+#: includes/helpers.php:663
+msgid "Romania"
+msgstr "Romania"
+
+#: includes/helpers.php:662
+msgid "Reunion Island"
+msgstr "Reunion Island"
+
+#: includes/helpers.php:661
+msgid "Republic of Kosovo"
+msgstr "Republic of Kosovo"
+
+#: includes/helpers.php:660
+msgid "Qatar"
+msgstr "Qatar"
+
+#: includes/helpers.php:659
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: includes/helpers.php:658
+msgid "Portugal"
+msgstr "Portugal"
+
+#: includes/helpers.php:657
+msgid "Poland"
+msgstr "Poland"
+
+#: includes/helpers.php:656
+msgid "Pitcairn Island"
+msgstr "Pitcairn Island"
+
+#: includes/helpers.php:655 includes/helpers.php:2206
+msgid "Philippines"
+msgstr "Philippines"
+
+#: includes/helpers.php:654
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/helpers.php:653
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: includes/helpers.php:652 includes/helpers.php:2205
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: includes/helpers.php:651
+msgid "Panama"
+msgstr "Panama"
+
+#: includes/helpers.php:650
+msgid "Palestinian Territories"
+msgstr "Palestinian Territories"
+
+#: includes/helpers.php:649 includes/helpers.php:2204
+msgid "Palau"
+msgstr "Palau"
+
+#: includes/helpers.php:648 includes/helpers.php:2203
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: includes/helpers.php:647
+msgid "Oman"
+msgstr "Oman"
+
+#: includes/helpers.php:646
+msgid "Norway"
+msgstr "Norway"
+
+#: includes/helpers.php:645
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: includes/helpers.php:644
+msgid "North Korea"
+msgstr "North Korea"
+
+#: includes/helpers.php:643
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: includes/helpers.php:642
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/helpers.php:641 includes/helpers.php:2202
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: includes/helpers.php:640
+msgid "Niger"
+msgstr "Niger"
+
+#: includes/helpers.php:639
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: includes/helpers.php:638 includes/helpers.php:2199
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: includes/helpers.php:637
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: includes/helpers.php:636
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+#: includes/helpers.php:635
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: includes/helpers.php:634
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/helpers.php:633 includes/helpers.php:2201
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/helpers.php:632 includes/helpers.php:2200
+msgid "Namibia"
+msgstr "Namibia"
+
+#: includes/helpers.php:631
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: includes/helpers.php:630
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: includes/helpers.php:629
+msgid "Morocco"
+msgstr "Morocco"
+
+#: includes/helpers.php:628
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/helpers.php:627
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: includes/helpers.php:626
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: includes/helpers.php:625
+msgid "Monaco"
+msgstr "Monaco"
+
+#: includes/helpers.php:624
+msgid "Moldova, Republic of"
+msgstr "Moldova, Republic of"
+
+#: includes/helpers.php:623 includes/helpers.php:2198
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: includes/helpers.php:622
+msgid "Mexico"
+msgstr "Mexico"
+
+#: includes/helpers.php:621
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: includes/helpers.php:620 includes/helpers.php:2197
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: includes/helpers.php:619
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: includes/helpers.php:618
+msgid "Martinique"
+msgstr "Martinique"
+
+#: includes/helpers.php:617 includes/helpers.php:2196
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: includes/helpers.php:616 includes/helpers.php:2195
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/helpers.php:615
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/helpers.php:614
+msgid "Maldives"
+msgstr "Maldives"
+
+#: includes/helpers.php:613
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: includes/helpers.php:612 includes/helpers.php:2194
+msgid "Malawi"
+msgstr "Malawi"
+
+#: includes/helpers.php:611
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: includes/helpers.php:609
+msgid "Macau"
+msgstr "Macau"
+
+#: includes/helpers.php:608
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: includes/helpers.php:607
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: includes/helpers.php:606
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: includes/helpers.php:605
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libyan Arab Jamahiriya"
+
+#: includes/helpers.php:604 includes/helpers.php:2193
+msgid "Liberia"
+msgstr "Liberia"
+
+#: includes/helpers.php:603 includes/helpers.php:2192
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: includes/helpers.php:602
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: includes/helpers.php:601
+msgid "Latvia"
+msgstr "Latvia"
+
+#: includes/helpers.php:600
+msgid "Lao People's Democratic Republic"
+msgstr "Lao People's Democratic Republic"
+
+#: includes/helpers.php:599
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: includes/helpers.php:598
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: includes/helpers.php:597 includes/helpers.php:2191
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/helpers.php:596 includes/helpers.php:2190
+msgid "Kenya"
+msgstr "Kenya"
+
+#: includes/helpers.php:595
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: includes/helpers.php:594
+msgid "Jordan"
+msgstr "Jordan"
+
+#: includes/helpers.php:593
+msgid "Jersey"
+msgstr "Jersey"
+
+#: includes/helpers.php:592
+msgid "Japan"
+msgstr "Japan"
+
+#: includes/helpers.php:591 includes/helpers.php:2189
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: includes/helpers.php:590
+msgid "Italy"
+msgstr "Italy"
+
+#: includes/helpers.php:589
+msgid "Israel"
+msgstr "Israel"
+
+#: includes/helpers.php:588
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: includes/helpers.php:587 includes/helpers.php:2187
+msgid "Ireland"
+msgstr "Ireland"
+
+#: includes/helpers.php:586
+msgid "Iraq"
+msgstr "Iraq"
+
+#: includes/helpers.php:585
+msgid "Iran"
+msgstr "Iran"
+
+#: includes/helpers.php:584
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: includes/helpers.php:583 includes/helpers.php:2188
+#: includes/popular-posts/class-popular-posts-themes.php:296
+msgid "India"
+msgstr "India"
+
+#: includes/helpers.php:582
+msgid "Iceland"
+msgstr "Iceland"
+
+#: includes/helpers.php:581
+msgid "Hungary"
+msgstr "Hungary"
+
+#: includes/helpers.php:580
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/helpers.php:579
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/helpers.php:578
+msgid "Holy See (City Vatican State)"
+msgstr "Holy See (City Vatican State)"
+
+#: includes/helpers.php:577
+msgid "Heard and McDonald Islands"
+msgstr "Heard and McDonald Islands"
+
+#: includes/helpers.php:576
+msgid "Haiti"
+msgstr "Haiti"
+
+#: includes/helpers.php:575 includes/helpers.php:2184
+msgid "Guyana"
+msgstr "Guyana"
+
+#: includes/helpers.php:574
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: includes/helpers.php:573
+msgid "Guinea"
+msgstr "Guinea"
+
+#: includes/helpers.php:572
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: includes/helpers.php:571
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/helpers.php:570
+msgid "Guam"
+msgstr "Guam"
+
+#: includes/helpers.php:569
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: includes/helpers.php:568 includes/helpers.php:2183
+msgid "Grenada"
+msgstr "Grenada"
+
+#: includes/helpers.php:567
+msgid "Greenland"
+msgstr "Greenland"
+
+#: includes/helpers.php:566
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: includes/helpers.php:565 includes/helpers.php:2186
+msgid "Ghana"
+msgstr "Ghana"
+
+#: includes/helpers.php:564
+msgid "Greece"
+msgstr "Greece"
+
+#: includes/helpers.php:563
+msgid "Germany"
+msgstr "Germany"
+
+#: includes/helpers.php:562
+msgid "Georgia"
+msgstr "Georgia"
+
+#: includes/helpers.php:561 includes/helpers.php:2185
+msgid "Gambia"
+msgstr "Gambia"
+
+#: includes/helpers.php:560
+msgid "Gabon"
+msgstr "Gabon"
+
+#: includes/helpers.php:559
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: includes/helpers.php:558
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: includes/helpers.php:557
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: includes/helpers.php:556
+msgid "France"
+msgstr "France"
+
+#: includes/helpers.php:555
+msgid "Finland"
+msgstr "Finland"
+
+#: includes/helpers.php:554 includes/helpers.php:2182
+msgid "Fiji"
+msgstr "Fiji"
+
+#: includes/helpers.php:553
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: includes/helpers.php:552
+msgid "Falkland Islands"
+msgstr "Falkland Islands"
+
+#: includes/helpers.php:551
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: includes/helpers.php:550
+msgid "Estonia"
+msgstr "Estonia"
+
+#: includes/helpers.php:549
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: includes/helpers.php:548
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: includes/helpers.php:547
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: includes/helpers.php:546
+msgid "Egypt"
+msgstr "Egypt"
+
+#: includes/helpers.php:545
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: includes/helpers.php:544
+msgid "East Timor"
+msgstr "East Timor"
+
+#: includes/helpers.php:543
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: includes/helpers.php:542 includes/helpers.php:2181
+msgid "Dominica"
+msgstr "Dominica"
+
+#: includes/helpers.php:541
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: includes/helpers.php:540
+msgid "Denmark"
+msgstr "Denmark"
+
+#: includes/helpers.php:538
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: includes/helpers.php:537
+msgid "Cura&Ccedil;ao"
+msgstr "Cura&Ccedil;ao"
+
+#: includes/helpers.php:536
+msgid "Cuba"
+msgstr "Cuba"
+
+#: includes/helpers.php:535
+msgid "Croatia/Hrvatska"
+msgstr "Croatia/Hrvatska"
+
+#: includes/helpers.php:534
+msgid "Cote d'Ivoire"
+msgstr "Cote d'Ivoire"
+
+#: includes/helpers.php:533
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/helpers.php:532
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: includes/helpers.php:531
+msgid "Congo, Republic of"
+msgstr "Congo, Republic of"
+
+#: includes/helpers.php:530
+msgid "Congo, Democratic People's Republic"
+msgstr "Congo, Democratic People's Republic"
+
+#: includes/helpers.php:529
+msgid "Comoros"
+msgstr "Comoros"
+
+#: includes/helpers.php:528
+msgid "Colombia"
+msgstr "Colombia"
+
+#: includes/helpers.php:527
+msgid "Cocos Islands"
+msgstr "Cocos Islands"
+
+#: includes/helpers.php:526
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: includes/helpers.php:525
+msgid "China"
+msgstr "China"
+
+#: includes/helpers.php:524
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/helpers.php:523
+msgid "Chad"
+msgstr "Chad"
+
+#: includes/helpers.php:522
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+#: includes/helpers.php:521
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: includes/helpers.php:520
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: includes/helpers.php:519 includes/helpers.php:2179
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: includes/helpers.php:518
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: includes/helpers.php:517 includes/helpers.php:2178
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/helpers.php:516
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/helpers.php:515
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: includes/helpers.php:514
+msgid "Brunei Darrussalam"
+msgstr "Brunei Darrussalam"
+
+#: includes/helpers.php:513
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: includes/helpers.php:512
+msgid "Brazil"
+msgstr "Brazil"
+
+#: includes/helpers.php:511
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: includes/helpers.php:510 includes/helpers.php:2177
+msgid "Botswana"
+msgstr "Botswana"
+
+#: includes/helpers.php:509
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+#: includes/helpers.php:508
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "Bonaire, Saint Eustatius and Saba"
+
+#: includes/helpers.php:507
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: includes/helpers.php:506
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: includes/helpers.php:505
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: includes/helpers.php:504
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/helpers.php:503 includes/helpers.php:2176
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/helpers.php:502
+msgid "Belgium"
+msgstr "Belgium"
+
+#: includes/helpers.php:501
+msgid "Belarus"
+msgstr "Belarus"
+
+#: includes/helpers.php:500 includes/helpers.php:2175
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/helpers.php:499
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: includes/helpers.php:498
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: includes/helpers.php:497
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: includes/helpers.php:496
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: includes/helpers.php:495
+msgid "Austria"
+msgstr "Austria"
+
+#: includes/helpers.php:494 includes/helpers.php:2174
+msgid "Australia"
+msgstr "Australia"
+
+#: includes/helpers.php:493
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/helpers.php:492
+msgid "Armenia"
+msgstr "Armenia"
+
+#: includes/helpers.php:491
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/helpers.php:490 includes/helpers.php:2173
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: includes/helpers.php:489
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: includes/helpers.php:488
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: includes/helpers.php:487
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/helpers.php:486
+msgid "Andorra"
+msgstr "Andorra"
+
+#: includes/helpers.php:485
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: includes/helpers.php:484
+msgid "Algeria"
+msgstr "Algeria"
+
+#: includes/helpers.php:483
+msgid "Albania"
+msgstr "Albania"
+
+#: includes/helpers.php:482
+msgid "&#197;land Islands"
+msgstr "&#197;land Islands"
+
+#: includes/helpers.php:481
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: includes/helpers.php:480 includes/helpers.php:2225
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: includes/helpers.php:479 includes/helpers.php:2180
+msgid "Canada"
+msgstr "Canada"
+
+#: includes/helpers.php:478
+msgid "United States"
+msgstr "United States"
+
+#: includes/frontend/tracking/class-tracking-preview.php:77
+msgid "You are currently in a preview window. MonsterInsights doesn't track preview window traffic to avoid false visit reports."
+msgstr "You are currently in a preview window. MonsterInsights doesn't track preview window traffic to avoid false visit reports."
+
+#. Translators: Placeholders add the hook name, plugin version and bold text.
+#: includes/deprecated.php:190
+msgid "%1$s is %3$sdeprecated%4$s since MonsterInsights version %2$s."
+msgstr "%1$s is %3$sdeprecated%4$s since MonsterInsights version %2$s."
+
+#. Translators: Placeholders add the hook name, plugin version and bold text.
+#: includes/deprecated.php:133
+msgid "%1$s is %3$sdeprecated%4$s since MonsterInsights version %2$s!"
+msgstr "%1$s is %3$sdeprecated%4$s since MonsterInsights version %2$s!"
+
+#: includes/admin/class-monsterinsights-usage-tracking.php:281
+#: includes/admin/tracking.php:281
+msgid "Once Weekly"
+msgstr "Once Weekly"
+
+#: includes/admin/exclude-page-metabox.php:142
+#: lite/includes/admin/user-journey/providers/class-abstract-lite-metabox.php:78
+#: lite/includes/admin/user-journey/providers/class-abstract-lite-metabox.php:116
+#: assets/gutenberg/js/editor.js:2928
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#. Translators: Placeholders are for links to fix the issue.
+#: includes/admin/common.php:521
+msgid "MonsterInsights has detected that it's files are being blocked. This is usually caused by a adblock browser plugin (particularly uBlock Origin), or a conflicting WordPress theme or plugin. This issue only affects the admin side of MonsterInsights. To solve this, ensure MonsterInsights is whitelisted for your website URL in any adblock browser plugin you use. For step by step directions on how to do this, %1$sclick here%2$s. If this doesn't solve the issue (rare), send us a ticket %3$shere%2$s and we'll be happy to help diagnose the issue."
+msgstr "MonsterInsights has detected that it's files are being blocked. This is usually caused by a adblock browser plugin (particularly uBlock Origin), or a conflicting WordPress theme or plugin. This issue only affects the admin side of MonsterInsights. To solve this, ensure MonsterInsights is whitelisted for your website URL in any adblock browser plugin you use. For step by step directions on how to do this, %1$sclick here%2$s. If this doesn't solve the issue (rare), send us a ticket %3$shere%2$s and we'll be happy to help diagnose the issue."
+
+#: lite/includes/admin/reports/report-ecommerce.php:22
+msgid "eCommerce"
+msgstr "eCommerce"
+
+#: lite/includes/admin/reports/report-forms.php:22
+msgid "Forms"
+msgstr "Forms"
+
+#. Translators: Placeholders add a link to the settings panel.
+#: includes/admin/reports/abstract-report.php:72
+msgid "Please %1$senable the dashboard%2$s to see report data."
+msgstr "Please %1$senable the dashboard%2$s to see report data."
+
+#: includes/admin/admin.php:928
+#: includes/admin/notifications/notification-upgrade-for-form-conversion.php:31
+#: includes/admin/notifications/notification-upgrade-for-search-console.php:32
+#: includes/admin/notifications/notification-upgrade-to-pro-five-hundred-session.php:44
+#: includes/admin/reports/abstract-report.php:538
+#: lite/includes/admin/woocommerce-marketing.php:79
+#: lite/assets/vue3/js/chunks/useSampleData-vhpTLOJT.js:705
+#: lite/assets/vue3/js/chunks/useSampleData-WWO8wHOx.js:701
+msgid "Upgrade Now"
+msgstr "Upgrade Now"
+
+#: includes/admin/notice.php:238
+msgid "Dismiss this notice"
+msgstr "Dismiss this notice"
+
+#: includes/admin/class-monsterinsights-onboarding.php:492
+msgid "There was an error connecting to the remote key API. Please try again later."
+msgstr "There was an error connecting to the remote key API. Please try again later."
+
+#: includes/admin/admin.php:1062
+msgid "Activate"
+msgstr "Activate"
+
+#: includes/admin/admin.php:402 includes/admin/admin.php:405
+#: includes/admin/admin.php:983
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/admin.php:419
+#: includes/admin/notifications/notification-upgrade-eu-traffic.php:86
+#: includes/admin/notifications/notification-upgrade-for-custom-dimensions.php:31
+#: includes/admin/notifications/notification-upgrade-for-email-summaries.php:36
+#: includes/admin/notifications/notification-upgrade-for-events-reporting.php:31
+#: includes/admin/notifications/notification-upgrade-for-post-templates.php:31
+#: includes/admin/reports/abstract-report.php:541
+msgid "Get MonsterInsights Pro"
+msgstr "Get MonsterInsights Pro"
+
+#: includes/admin/admin.php:397
+msgid "Documentation"
+msgstr "Documentation"
+
+#: includes/admin/admin.php:307 includes/admin/admin.php:410
+msgid "Network Settings"
+msgstr "Network Settings"
+
+#: includes/admin/admin.php:154 includes/admin/admin.php:320
+msgid "Addons"
+msgstr "Addons"
+
+#: includes/admin/admin.php:154 includes/admin/admin.php:320
+msgid "Addons:"
+msgstr "Addons:"
+
+#: googleanalytics.php:415
+msgid "Please %1$suninstall%2$s the MonsterInsights Lite Plugin. Your Pro version of MonsterInsights may not work as expected until the Lite version is uninstalled."
+msgstr "Please %1$suninstall%2$s the MonsterInsights Lite Plugin. Your Pro version of MonsterInsights may not work as expected until the Lite version is uninstalled."
+
+#: googleanalytics.php:288 googleanalytics.php:302
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; eh?"
+
+#. Author of the plugin
+#: googleanalytics.php includes/admin/admin.php:55 includes/admin/admin.php:91
+#: includes/admin/eea-compliance.php:213 includes/admin/wp-site-health.php:35
+#: includes/emails/class-emails.php:255
+#: lite/includes/admin/dashboard-widget.php:99
+#: lite/includes/admin/wp-site-health.php:231
+#: lite/includes/admin/wp-site-health.php:283
+#: lite/includes/admin/wp-site-health.php:310
+#: lite/includes/admin/wp-site-health.php:348
+#: lite/includes/admin/wp-site-health.php:375
+#: lite/includes/admin/wp-site-health.php:405
+#: lite/includes/admin/wp-site-health.php:449
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/admin/admin.php:55 includes/admin/admin.php:94
+#: includes/admin/admin.php:261 includes/admin/admin.php:264
+#: includes/admin/admin.php:305
+msgid "Insights"
+msgstr "Insights"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:323
+msgid "General"
+msgstr "General"
+
+#: includes/admin/reports/overview.php:34
+msgid "Overview"
+msgstr "Overview"
+
+#: includes/admin/admin.php:62 includes/admin/admin.php:309
+msgid "Reports"
+msgstr "Reports"
+
+#: includes/admin/admin.php:91 includes/admin/admin.php:412
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/gutenberg/site-insights/templates/scorecard/class-scorecard-pageviews.php:36
+#: lite/includes/emails/summaries.php:785
+#: lite/includes/emails/templates/body-summaries-test-plain.php:32
+#: lite/includes/emails/templates/body-summaries-test.php:34
+#: assets/gutenberg/js/editor.js:2651
+#: lite/assets/vue3/js/chunks/DashboardCreate-DS2q8PCa.js:332
+#: lite/assets/vue3/js/chunks/DashboardCreate-hcZoS4x7.js:330
+#: lite/assets/vue3/js/chunks/useAuthGate-Bvb6NIwm.js:19477
+#: lite/assets/vue3/js/chunks/useAuthGate-Bvb6NIwm.js:20079
+#: lite/assets/vue3/js/chunks/useAuthGate-CBzUzN1E.js:41874
+#: lite/assets/vue3/js/chunks/useAuthGate-CBzUzN1E.js:42458
+msgid "Bounce Rate"
+msgstr "Bounce Rate"
