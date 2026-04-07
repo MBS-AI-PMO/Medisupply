@@ -1,0 +1,1425 @@
+[19-Mar-2026 11:23:04 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Mar-2026 11:33:07 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Mar-2026 11:43:53 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:43:53 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:43:53 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:43:53 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:44:10 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:44:11 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:44:11 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 11:44:11 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[19-Mar-2026 14:13:20 UTC] Cron reschedule event error for hook: jetpack_clean_nonces, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[20-Mar-2026 04:29:24 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:26 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:26 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:28 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[20-Mar-2026 04:29:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[21-Mar-2026 04:21:54 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[21-Mar-2026 04:21:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[21-Mar-2026 04:21:56 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[21-Mar-2026 04:21:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[21-Mar-2026 04:21:58 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[21-Mar-2026 04:21:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[22-Mar-2026 04:09:36 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[22-Mar-2026 04:09:36 UTC] Aq_Resize.process() error: $url parameter is required
+[22-Mar-2026 04:09:36 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[22-Mar-2026 04:09:36 UTC] Aq_Resize.process() error: $url parameter is required
+[22-Mar-2026 04:09:36 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[22-Mar-2026 04:09:36 UTC] Aq_Resize.process() error: $url parameter is required
+[22-Mar-2026 04:25:56 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[22-Mar-2026 04:25:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[22-Mar-2026 04:25:58 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[22-Mar-2026 04:25:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[22-Mar-2026 04:26:00 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[22-Mar-2026 04:26:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 04:25:57 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 04:25:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 04:25:59 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 04:25:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 04:26:01 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 04:26:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[23-Mar-2026 09:53:35 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[23-Mar-2026 09:53:35 UTC] Aq_Resize.process() error: $url parameter is required
+[23-Mar-2026 09:53:35 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[23-Mar-2026 09:53:35 UTC] Aq_Resize.process() error: $url parameter is required
+[23-Mar-2026 09:53:35 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[23-Mar-2026 09:53:35 UTC] Aq_Resize.process() error: $url parameter is required
+[23-Mar-2026 15:50:12 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[23-Mar-2026 15:50:12 UTC] Aq_Resize.process() error: $url parameter is required
+[23-Mar-2026 15:50:12 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[23-Mar-2026 15:50:12 UTC] Aq_Resize.process() error: $url parameter is required
+[23-Mar-2026 15:50:12 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[23-Mar-2026 15:50:12 UTC] Aq_Resize.process() error: $url parameter is required
+[24-Mar-2026 04:39:40 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[24-Mar-2026 04:39:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[24-Mar-2026 04:39:42 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[24-Mar-2026 04:39:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[24-Mar-2026 04:39:44 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[24-Mar-2026 04:39:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 04:20:26 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 04:20:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 04:20:27 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 04:20:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 04:20:29 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 04:20:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[25-Mar-2026 23:48:41 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[25-Mar-2026 23:48:41 UTC] Aq_Resize.process() error: $url parameter is required
+[25-Mar-2026 23:48:41 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[25-Mar-2026 23:48:41 UTC] Aq_Resize.process() error: $url parameter is required
+[25-Mar-2026 23:48:41 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[25-Mar-2026 23:48:41 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 00:00:25 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 00:00:25 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 00:00:25 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 00:00:25 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 00:00:25 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 00:00:25 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 02:27:54 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 02:27:54 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 02:27:54 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 02:27:54 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 02:27:54 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 02:27:54 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 04:40:21 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[26-Mar-2026 04:40:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[26-Mar-2026 04:40:23 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[26-Mar-2026 04:40:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[26-Mar-2026 04:40:25 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[26-Mar-2026 04:40:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[26-Mar-2026 07:10:29 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:29 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:29 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:30 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:48 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:48 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:49 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:10:49 UTC] PHP Fatal error:  Uncaught WpOrg\Requests\Exception\Http\Status403: 403 Forbidden in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php:207
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php(57): Elementor\Modules\CloudLibrary\Module->is_screenshot_proxy_mode(Array)
+#1 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/base/module.php(86): Elementor\Modules\CloudLibrary\Module->__construct()
+#2 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/core/modules-manager.php(64): Elementor\Core\Base\Module::instance()
+#3 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(704): Elementor\Core\Modules_Manager->__construct()
+#4 /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/includes/plugin.php(622): Elementor\Plugin->init_components()
+#5 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): Elementor\Plugin->init('')
+#6 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#7 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#8 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#9 /mnt/nvme1n1/medissup/public_html/wp-config.php(102): require_once('/mnt/nvme1n1/me...')
+#10 /mnt/nvme1n1/medissup/public_html/wp-load.php(50): require_once('/mnt/nvme1n1/me...')
+#11 /mnt/nvme1n1/medissup/public_html/wp-blog-header.php(13): require_once('/mnt/nvme1n1/me...')
+#12 /mnt/nvme1n1/medissup/public_html/index.php(17): require('/mnt/nvme1n1/me...')
+#13 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor/modules/cloud-library/module.php on line 207
+[26-Mar-2026 07:53:54 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 07:53:54 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 07:53:54 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 07:53:54 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 07:53:54 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 07:53:54 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 08:47:46 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 08:47:46 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 08:47:46 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 08:47:46 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 08:47:46 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 08:47:46 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 12:35:16 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 12:35:16 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 12:35:16 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 12:35:16 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 12:35:16 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 12:35:16 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 22:05:39 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 22:05:39 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 22:05:39 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 22:05:39 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 22:05:39 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 22:05:39 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 23:43:37 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 23:43:37 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 23:43:37 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 23:43:37 UTC] Aq_Resize.process() error: $url parameter is required
+[26-Mar-2026 23:43:37 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[26-Mar-2026 23:43:37 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 03:05:18 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 03:05:18 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 03:05:18 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 03:05:18 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 03:05:18 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 03:05:18 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 04:23:34 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[27-Mar-2026 04:23:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[27-Mar-2026 04:23:36 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[27-Mar-2026 04:23:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[27-Mar-2026 04:23:37 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[27-Mar-2026 04:23:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[27-Mar-2026 04:55:42 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 04:55:42 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 04:55:42 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 04:55:42 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 04:55:42 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 04:55:42 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 15:06:49 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 15:06:49 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 15:06:49 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 15:06:49 UTC] Aq_Resize.process() error: $url parameter is required
+[27-Mar-2026 15:06:49 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[27-Mar-2026 15:06:49 UTC] Aq_Resize.process() error: $url parameter is required
+[28-Mar-2026 04:23:14 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[28-Mar-2026 04:23:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[28-Mar-2026 04:23:16 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[28-Mar-2026 04:23:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[28-Mar-2026 04:23:18 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[28-Mar-2026 04:23:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[29-Mar-2026 04:30:29 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[29-Mar-2026 04:30:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[29-Mar-2026 04:30:35 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[29-Mar-2026 04:30:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[29-Mar-2026 04:30:37 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[29-Mar-2026 04:30:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[30-Mar-2026 04:27:21 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[30-Mar-2026 04:27:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[30-Mar-2026 04:27:27 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[30-Mar-2026 04:27:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[30-Mar-2026 04:27:29 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[30-Mar-2026 04:27:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[31-Mar-2026 04:52:46 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[31-Mar-2026 04:52:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[31-Mar-2026 04:52:53 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[31-Mar-2026 04:52:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[31-Mar-2026 04:52:55 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[31-Mar-2026 04:52:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 04:45:11 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 04:45:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 04:45:14 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 04:45:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 04:45:16 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 04:45:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[01-Apr-2026 09:56:39 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 09:56:39 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 09:56:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 11:06:46 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 11:06:47 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 11:06:47 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 12:27:07 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 12:27:07 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 12:27:07 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 12:53:48 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 12:53:48 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 12:53:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 13:43:41 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 13:43:41 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 13:43:41 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 14:11:36 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 14:11:39 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 14:11:39 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 15:30:47 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 15:30:48 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[01-Apr-2026 15:30:48 UTC] Aq_Resize.process() error: $url parameter is required
+[01-Apr-2026 15:30:48 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[01-Apr-2026 15:30:48 UTC] Aq_Resize.process() error: $url parameter is required
+[01-Apr-2026 15:30:48 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[01-Apr-2026 15:30:48 UTC] Aq_Resize.process() error: $url parameter is required
+[01-Apr-2026 15:30:48 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 15:30:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 16:21:13 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 16:21:13 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 16:21:13 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 16:39:32 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 16:39:32 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 16:39:32 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 16:40:25 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 16:40:25 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 16:40:25 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 16:43:45 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 16:43:45 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 16:43:45 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 17:46:49 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 17:46:49 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 17:46:49 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 17:47:02 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 17:47:02 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 17:47:02 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 18:34:21 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 18:34:21 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 18:34:21 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 18:34:22 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 18:34:22 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 18:34:22 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 18:34:48 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 18:34:48 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 18:34:48 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 18:34:53 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 18:34:53 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 18:34:53 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 18:35:11 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 18:35:11 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 18:35:11 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 18:48:51 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 18:48:52 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 18:48:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 21:32:34 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 21:32:34 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 21:32:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 21:34:52 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 21:34:52 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 21:34:52 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 21:35:05 UTC] PHP Deprecated:  stripos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/functions.wp-scripts.php on line 133
+[01-Apr-2026 21:35:05 UTC] PHP Deprecated:  str_contains(): Passing null to parameter #1 ($haystack) of type string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/shortcodes.php on line 246
+[01-Apr-2026 21:35:05 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /mnt/nvme1n1/medissup/public_html/wp-includes/kses.php on line 2018
+[01-Apr-2026 22:08:06 UTC] PHP Warning:  Trying to access array offset on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/timetics/core/bookings/hooks.php on line 405
+[01-Apr-2026 22:08:08 UTC] PHP Warning:  Trying to access array offset on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/timetics/core/bookings/hooks.php on line 405
+[01-Apr-2026 22:08:14 UTC] PHP Warning:  Trying to access array offset on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/timetics/core/bookings/hooks.php on line 405
+[01-Apr-2026 22:08:15 UTC] PHP Warning:  Trying to access array offset on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/timetics/core/bookings/hooks.php on line 405
+[01-Apr-2026 22:08:18 UTC] PHP Warning:  Trying to access array offset on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/timetics/core/bookings/hooks.php on line 405
+[01-Apr-2026 22:08:18 UTC] PHP Warning:  Trying to access array offset on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/timetics/core/bookings/hooks.php on line 405
+[02-Apr-2026 05:37:43 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[02-Apr-2026 05:37:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[02-Apr-2026 05:37:45 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[02-Apr-2026 05:37:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[02-Apr-2026 05:37:46 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[02-Apr-2026 05:37:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[02-Apr-2026 12:00:44 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[02-Apr-2026 12:00:44 UTC] Cron reschedule event error for hook: timetics_booking_clear_schedule, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Apr-2026 12:00:44 UTC] Cron unschedule event error for hook: timetics_booking_clear_schedule, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Apr-2026 12:00:44 UTC] Cron reschedule event error for hook: elementor/tracker/send_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Apr-2026 12:00:44 UTC] Cron unschedule event error for hook: elementor/tracker/send_event, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Apr-2026 12:00:44 UTC] Cron reschedule event error for hook: timetics_booking_clear_schedule, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Apr-2026 12:00:44 UTC] Cron unschedule event error for hook: timetics_booking_clear_schedule, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Apr-2026 12:00:44 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[02-Apr-2026 12:00:44 UTC] Cron unschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[03-Apr-2026 04:48:29 UTC] PHP Warning:  Attempt to read property "api" on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor-pro/elementor-pro.php on line 61
+[03-Apr-2026 04:48:29 UTC] PHP Warning:  Attempt to read property "api" on null in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/elementor-pro/elementor-pro.php on line 66
+[03-Apr-2026 04:48:29 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[03-Apr-2026 04:48:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[03-Apr-2026 04:48:31 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[03-Apr-2026 04:48:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[03-Apr-2026 04:48:35 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[03-Apr-2026 04:48:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[03-Apr-2026 10:33:34 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[03-Apr-2026 10:33:34 UTC] Aq_Resize.process() error: $url parameter is required
+[03-Apr-2026 10:33:34 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[03-Apr-2026 10:33:34 UTC] Aq_Resize.process() error: $url parameter is required
+[03-Apr-2026 10:33:34 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[03-Apr-2026 10:33:34 UTC] Aq_Resize.process() error: $url parameter is required
+[03-Apr-2026 10:33:41 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[03-Apr-2026 10:33:41 UTC] Aq_Resize.process() error: $url parameter is required
+[03-Apr-2026 10:33:41 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[03-Apr-2026 10:33:41 UTC] Aq_Resize.process() error: $url parameter is required
+[03-Apr-2026 10:33:41 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[03-Apr-2026 10:33:41 UTC] Aq_Resize.process() error: $url parameter is required
+[04-Apr-2026 04:20:55 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[04-Apr-2026 04:20:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[04-Apr-2026 04:20:57 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[04-Apr-2026 04:20:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[04-Apr-2026 04:20:59 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[04-Apr-2026 04:20:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[04-Apr-2026 22:13:59 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[04-Apr-2026 22:13:59 UTC] Aq_Resize.process() error: $url parameter is required
+[04-Apr-2026 22:13:59 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[04-Apr-2026 22:13:59 UTC] Aq_Resize.process() error: $url parameter is required
+[04-Apr-2026 22:13:59 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[04-Apr-2026 22:13:59 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 02:22:03 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 02:22:03 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 02:22:03 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 02:22:03 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 02:22:03 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 02:22:03 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 04:21:11 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[05-Apr-2026 04:21:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[05-Apr-2026 04:21:13 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[05-Apr-2026 04:21:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[05-Apr-2026 04:21:15 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[05-Apr-2026 04:21:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[05-Apr-2026 07:08:33 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 07:08:33 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 07:08:33 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 07:08:33 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 07:08:33 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 07:08:33 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 07:18:32 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 07:18:32 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 07:18:32 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 07:18:32 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 07:18:32 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 07:18:32 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 17:24:29 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 17:24:29 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 17:24:29 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 17:24:29 UTC] Aq_Resize.process() error: $url parameter is required
+[05-Apr-2026 17:24:29 UTC] PHP Warning:  Trying to access array offset on false in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/dotus-core/include/widgets/recent-posts.php on line 199
+[05-Apr-2026 17:24:29 UTC] Aq_Resize.process() error: $url parameter is required
+[06-Apr-2026 04:18:30 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[06-Apr-2026 04:18:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[06-Apr-2026 04:18:33 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[06-Apr-2026 04:18:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[06-Apr-2026 04:18:34 UTC] PHP Warning:  require_once(/functions/deprecated.php): Failed to open stream: No such file or directory in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
+[06-Apr-2026 04:18:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/functions/deprecated.php' (include_path='.:/opt/cpanel/ea-php83/root/usr/share/pear') in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php:62
+Stack trace:
+#0 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(341): cs_framework_init('')
+#1 /mnt/nvme1n1/medissup/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters(NULL, Array)
+#2 /mnt/nvme1n1/medissup/public_html/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /mnt/nvme1n1/medissup/public_html/wp-settings.php(742): do_action('init')
+#4 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1394): require('/mnt/nvme1n1/me...')
+#5 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php(1313): WP_CLI\Runner->load_wordpress()
+#6 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php(28): WP_CLI\Runner->start()
+#7 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php(84): WP_CLI\Bootstrap\LaunchRunner->process(Object(WP_CLI\Bootstrap\BootstrapState))
+#8 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php(35): WP_CLI\bootstrap()
+#9 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/vendor/wp-cli/wp-cli/php/boot-fs.php(17): require_once('/usr/local/cpan...')
+#10 /usr/local/cpanel/3rdparty/wp-toolkit/plib/vendor/wp-cli/wpt-wp-cli.php(31): require_once('/usr/local/cpan...')
+#11 Command line code(1): require('/usr/local/cpan...')
+#12 {main}
+  thrown in /mnt/nvme1n1/medissup/public_html/wp-content/plugins/codestar-framework/cs-framework.php on line 62
